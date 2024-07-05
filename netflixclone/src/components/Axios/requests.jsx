@@ -1,6 +1,7 @@
 const API_KEY = "8cec7a55496c043088a9e0c9e0b0848c";
 
-const request = {
+
+const requests = {
   fetchNetflexOrginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTrending: `/trending/all/day?api_key=${API_KEY}&language=en-US`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
@@ -11,6 +12,6 @@ const request = {
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
 
-export default request;
+export default requests;
 
 //axios is a functional moduel to requst api not a component
