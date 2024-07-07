@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import Row from "./components/rows/Row";
-import request from "./components/Axios/requests.jsx";
+import request from "./components/Util/requests.jsx";
+
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
       <Row title="NetflexOrginals" fetchUrl={request.fetchNetflexOrginals} />
       <Row title="Treding Now" fetchUrl={request.fetchTrending} />
       <Row title="Top Rated" fetchUrl={request.fetchTopRated} />
