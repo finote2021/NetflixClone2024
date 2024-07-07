@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
+import Header from "../../components/Header/Header1";
 import Banner from "../../components/Banner/Banner";
 import Row from "../../components/rows/Row";
 import requests from "../../components/Util/requests";
@@ -13,7 +13,7 @@ const Home = () => {
       <Row
         title="Netflix Orginals"
         fetchUrl={requests.fetchNetflexOrginals}
-        isLargeRow={true}
+        isLargeRow={true} // see note
       />
       <Row title="Trendings" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated " fetchUrl={requests.fetchTopRated} />
