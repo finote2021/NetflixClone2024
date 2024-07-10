@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header1";
+import Header from "../../components/Header/Header1.jsx";
 import Banner from "../../components/Banner/Banner";
-import Row from "../../components/rows/Row";
+import Row from "../../components/rows/Row.jsx";
 import requests from "../../components/Util/requests";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <Row
         title="Netflix Orginals"
         fetchUrl={requests.fetchNetflexOrginals}
-        isLargeRow={true} // see note
+        isLargeRow={true}
       />
       <Row title="Trendings" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated " fetchUrl={requests.fetchTopRated} />

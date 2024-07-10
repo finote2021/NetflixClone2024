@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Banner() {
+function Banner() {
   return (
     <div>
       <p>Banner</p>
     </div>
   )
 }
+
+export default Banner
