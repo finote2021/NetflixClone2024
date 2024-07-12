@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./banner.css";
 
 function Banner() {
   return (
-    <div>
-      <p>Banner</p>
+    <div className="banner">
+      <p>Banne</p>
     </div>
-  )
+  );
 }
 
-export default Banner
+export default Banner;
