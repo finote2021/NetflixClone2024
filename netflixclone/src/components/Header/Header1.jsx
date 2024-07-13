@@ -1,6 +1,11 @@
 import React from "react";
 import "./header.css";
 import NetflixLogo from "../../assets/Logonetflix.png";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+
 
 
 function Header1() {
@@ -22,18 +27,18 @@ function Header1() {
         </div>
         <div className="header_right">
           <ul>
-            {/* <li>
+            <li>
               <SearchIcon />
             </li>
             <li>
               <NotificationsNoneIcon />
             </li>
             <li>
-              <PortraitIcon />
+              <AccountBoxIcon />
             </li>
             <li>
               <ArrowDropDownIcon />
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
