@@ -2,15 +2,15 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header1.jsx";
 import Banner from "../../components/Banner/Banner";
-// import Row from "../../components/rows/Row.jsx";
-// import requests from "../../components/Util/requests";
+import Row from "../../components/rows/Row.jsx";
+import requests from "../../components/Util/requests";
 
 const Home = () => {
   return (
     <>
       <Header />
       <Banner />
-      {/* <Row
+      <Row
         title="Netflix Orginals"
         fetchUrl={requests.fetchNetflexOrginals}
         isLargeRow={true}
@@ -24,7 +24,7 @@ const Home = () => {
       <Row title="Documentaries " fetchUrl={requests.fetchDocumentaries} />
       <br></br>
       <br></br>
-      <br></br> */}
+      <br></br>
 
       <br />
       <br />
@@ -32,6 +32,8 @@ const Home = () => {
       <br />
 
       <Footer />
+    
+
     </>
   );
 };
